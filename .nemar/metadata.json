@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Flexible, Scalable, High Channel Count Stereo-Electrode for Recording in the Human Brain",
-  "description": "This dataset contains intracranial EEG (iEEG) recordings acquired using novel flexible, scalable, high-channel-count micro-stereo-electrodes for direct neural recording in the human brain and animal models. The dataset includes raw and preprocessed (epoched) iEEG data collected across multiple species (humans, rodents, pigs, and non-human primates) to validate the performance and utility of the electrode technology. Direct electrical stimulation was employed to examine neural responses and characterize electrode functionality for high-resolution brain activity monitoring.",
-  "methods_description": "Intracranial EEG data were recorded using flexible, scalable, high-channel-count stereo-electrodes. The dataset includes raw and preprocessed (epoched) recordings with binary files and channel maps provided in the derivatives folder. Direct electrical stimulation was used to examine effects of stimulation in the brain.",
+  "description": "Intracranial EEG (iEEG) recordings used to evaluate a flexible, scalable, high-channel-count micro-stereo-electrode for recording neural activity in the brain. The dataset includes raw and preprocessed (epoched) recordings from multiple species, including human patients, non-human primates, pigs and rodents. Direct electrical stimulation was used to examine the effects of stimulation on brain activity. Data are organized in iEEG-BIDS format, with binary files and channel maps in the derivatives folder.",
+  "methods_description": "Intracranial recordings were acquired with novel high-resolution micro-stereo-electrodes in human patients, non-human primates, pigs and rodents. Direct electrical stimulation tests were performed, and the data were epoched for preprocessing.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -45,64 +45,31 @@
       "term": "intracranial EEG"
     },
     {
-      "term": "iEEG"
+      "term": "stereo-electrode"
     },
     {
-      "term": "stereo-electrodes"
-    },
-    {
-      "term": "depth electrodes"
-    },
-    {
-      "term": "neural recording"
-    },
-    {
-      "term": "electrical stimulation"
+      "term": "depth electrode"
     },
     {
       "term": "direct electrical stimulation"
     },
     {
-      "term": "microelectrodes"
+      "term": "high-density recording"
     },
     {
-      "term": "electrode technology"
-    },
-    {
-      "term": "brain activity"
-    },
-    {
-      "term": "high-resolution recording"
-    },
-    {
-      "term": "rodents"
-    },
-    {
-      "term": "pigs"
-    },
-    {
-      "term": "non-human primates"
-    },
-    {
-      "term": "humans"
-    },
-    {
-      "term": "BIDS"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.1101/2022.11.08.515705.",
       "identifier_type": "DOI",
-      "relation_type": "References"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/on004819",
-      "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004819",
+      "identifier": "https://github.com/nemarDatasets/on004819",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -115,14 +82,16 @@
       "identifier": "10.18112/openneuro.ds004819.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004819",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
     {
       "funder_name": "Tiny Blue Dot Foundation"
-    },
-    {
-      "funder_name": "NIH K99 NS119291"
     },
     {
       "funder_name": "MGH - ECOR"
@@ -136,7 +105,7 @@
       "award_number": "R01NS123655-01"
     },
     {
-      "funder_name": "NIH",
+      "funder_name": "NIH NBIB",
       "award_number": "DP2-EB029757"
     },
     {
@@ -169,7 +138,7 @@
     },
     {
       "funder_name": "NIH",
-      "award_number": "K99NS119291"
+      "award_number": "K99 NS119291"
     },
     {
       "funder_name": "NSF",
@@ -182,7 +151,7 @@
     "ieeg"
   ],
   "sizes": [
-    "1.5 GB (25 files)"
+    "1.36 GB (25 files)"
   ],
   "formats": [
     ".dat",
