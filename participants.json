@@ -1,44 +1,48 @@
 {
- "collectionIssues": {
-  "Description": "no collection issues",
-  "Levels": {
-   "Nn": "none"
+  "collectionIssues": {
+    "Description": "no collection issues",
+    "Levels": {
+      "Nn": "none",
+      "none": "none"
+    }
+  },
+  "testdate": {
+    "Description": "Data collection date +-3 months",
+    "Units": "year-month-day"
+  },
+  "age": {
+    "Description": "Age in years at time of implant",
+    "Units": "years"
+  },
+  "sex": {
+    "Description": "Sex",
+    "Levels": {
+      "F": "male",
+      "M": "female"
+    }
+  },
+  "StimulationTest1": {
+    "Description": "Type of electrical stimulation test",
+    "Levels": {
+      "A": "Spine stimulation multiple amplitudes",
+      "N": "n/a",
+      "Spine stimulation multiple amplitudes": "Spine stimulation multiple amplitudes"
+    }
+  },
+  "StimulationTest2": {
+    "Description": "Type of electrical stimulation test",
+    "Levels": {
+      "A": "Whisker airpuff stimulation",
+      "N": "n/a",
+      "Whisker airpuff stimulation": "Whisker airpuff stimulation"
+    }
+  },
+  "StimulationTest3": {
+    "Description": "Type of electrical stimulation test",
+    "Levels": {
+      "A": "Whisker barrel stimulation",
+      "N": "n/a",
+      "Whisker barrel stimulation": "Whisker barrel stimulation"
+    }
   }
- },
- "testdate": {
-  "Description": "Data collection date +-3 months",
-  "Units": "year-month-day"
- },
- "age": {
-  "Description": "Age in years at time of implant",
-  "Units": "years"
- },
- "sex": {
-  "Description": "Sex",
-  "Levels": {
-   "F": "male",
-   "M": "female"
-  }
- },
- "StimulationTest1": {
-  "Description": "Type of electrical stimulation test",
-  "Levels": {
-   "A": "Spine stimulation multiple amplitudes",
-   "N": "n/a"
-  }
- },
- "StimulationTest2": {
-  "Description": "Type of electrical stimulation test",
-  "Levels": {
-   "A": "Whisker airpuff stimulation",
-   "N": "n/a"
-  }
- },
- "StimulationTest3": {
-  "Description": "Type of electrical stimulation test",
-  "Levels": {
-   "A": "Whisker barrel stimulation",
-   "N": "n/a"
-  }
- }
 }
